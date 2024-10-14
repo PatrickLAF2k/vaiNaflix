@@ -1,11 +1,15 @@
-import React from "react"
-
+import React from "react";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import "./global.scss";
 
 function App() {
-  return(
+  return (
     <>
-    <h1>Hellow WorldDois</h1>
+      <Header />
+      <Main />
     </>
-  )
+  );
 }
-export default App
+
+export default App;

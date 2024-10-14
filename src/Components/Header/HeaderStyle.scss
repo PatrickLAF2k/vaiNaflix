@@ -1,0 +1,16 @@
+header{
+    background-color: aqua;
+    
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+
+        li{
+            cursor: pointer;
+        }
+        
+    }
+}

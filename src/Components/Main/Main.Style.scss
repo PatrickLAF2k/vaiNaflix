@@ -1,0 +1,11 @@
+main {
+  figure {
+    img {
+      border: #ff0000 dotted 1px;
+      width: 100%; // ou um valor fixo, como 300px
+      max-width: 400px;
+      height: auto; // Isso mantém a proporção da imagem
+      object-fit: cover; // Isso ajuda a cobrir a área da imagem sem distorção
+    }
+  }
+}
