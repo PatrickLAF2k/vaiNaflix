@@ -1,13 +1,16 @@
 import React from "react";
-import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
 import "./global.scss";
+
+import Header from "./Components/Header/Header";
+import Animes from "./Components/Main/Animes/AnimeCatalogo";
+
+
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Animes />
     </>
   );
 }
