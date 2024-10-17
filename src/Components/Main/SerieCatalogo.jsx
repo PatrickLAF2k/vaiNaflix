@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import "/Users/Patrick/Documents/vnwReact/vaiNaFlix/src/Components/Main/MainStyle.scss"
+import "../Main/MainStyle.scss"
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/src/assets/FilmesCapas/ateUltimoHomen.jpg",
-  "/src/assets/FilmesCapas/brilhoEternoDeUmaMenteSemLembrancas.jpg",
-  "/src/assets/FilmesCapas/donieDarko.jpg",
-  "/src/assets/FilmesCapas/oPredestinado.jpg",
-  "/src/assets/FilmesCapas/sinais.jpg",
-  "/src/assets/FilmesCapas/sniperAmericano.jpg",
-  "/src/assets/FilmesCapas/Sound_of_freedom.jpg",
-  "/src/assets/FilmesCapas/TheTrumanShow.jpg",
-  "/src/assets/FilmesCapas/univerNoOlhar.jpg",
+  "/src/assets/SeriesCapas/Breaking_Bad_Temp1.jpg",
+  "/src/assets/SeriesCapas/dark.jpg",
+  "/src/assets/SeriesCapas/euAPatroaeAsCrianacas.jpg",
+  "/src/assets/SeriesCapas/gameOfThrones.jpg",
+  "/src/assets/SeriesCapas/peakyBlinders.jpg",
+  "/src/assets/SeriesCapas/supernatural.jpg",
+  "/src/assets/SeriesCapas/todoMundoOdeiaOCris.jpg",
+  "/src/assets/SeriesCapas/vikings.jpg",
+  "/src/assets/SeriesCapas/yellowStone.jpeg",
 ];
 
 // Componente do carrossel reutilizável

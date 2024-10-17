@@ -2,10 +2,10 @@ import React from "react";
 import "./global.scss";
 import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 
-import Animes from "./Components/Main/Animes/AnimeCatalogo";
-import Filmes from "./Components/Main/Filmes/FilmeCatalogo";
-import Header from "./Components/Header/Header";
-import Series from "./Components/Main/Series/SerieCatalogo.jsx";
+import Animes from "./Components/Main/AnimeCatalogo";
+import Filmes from "./Components/Main/FilmeCatalogo";
+import Series from "./Components/Main/SerieCatalogo.jsx";
+import Header from "./Components/Header/Header.jsx";
 
 function App() {
   return (
