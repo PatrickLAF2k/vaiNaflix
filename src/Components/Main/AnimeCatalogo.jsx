@@ -3,15 +3,15 @@ import { useState } from "react";
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/src/assets/AnimesCapas/blueExorcist.jpg",
-  "/src/assets/AnimesCapas/bokuNoHero.jpg",
-  "/src/assets/AnimesCapas/dororo.jpg",
-  "/src/assets/AnimesCapas/dungeon.jpg",
-  "/src/assets/AnimesCapas/frieren.jpg",
-  "/src/assets/AnimesCapas/haiTo.jpg",
-  "/src/assets/AnimesCapas/jujutsu.jpg",
-  "/src/assets/AnimesCapas/naruto.jpg",
-  "/src/assets/AnimesCapas/noragami.jpg",
+  "/AnimesCapas/blueExorcist.jpg",
+  "/AnimesCapas/bokuNoHero.jpg",
+  "/AnimesCapas/dororo.jpg",
+  "/AnimesCapas/dungeon.jpg",
+  "/AnimesCapas/frieren.jpg",
+  "/AnimesCapas/haiTo.jpg",
+  "/AnimesCapas/jujutsu.jpg",
+  "/AnimesCapas/naruto.jpg",
+  "/AnimesCapas/noragami.jpg",
 ];
 
 // Componente do carrossel reutilizável

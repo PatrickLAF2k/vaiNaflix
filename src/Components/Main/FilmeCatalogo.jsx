@@ -3,15 +3,15 @@ import { useState } from "react";
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/src/assets/FilmesCapas/ateUltimoHomen.jpg",
-  "/src/assets/FilmesCapas/brilhoEternoDeUmaMenteSemLembrancas.jpg",
-  "/src/assets/FilmesCapas/donieDarko.jpg",
-  "/src/assets/FilmesCapas/oPredestinado.jpg",
-  "/src/assets/FilmesCapas/sinais.jpg",
-  "/src/assets/FilmesCapas/sniperAmericano.jpg",
-  "/src/assets/FilmesCapas/Sound_of_freedom.jpg",
-  "/src/assets/FilmesCapas/TheTrumanShow.jpg",
-  "/src/assets/FilmesCapas/univerNoOlhar.jpg",
+  "/FilmesCapas/ateUltimoHomen.jpgg",
+  "/FilmesCapas/brilhoEternoDeUmaMenteSemLembrancas.jpg",
+  "/FilmesCapas/donieDarko.jpg",
+  "/FilmesCapas/oPredestinado.jpg",
+  "/FilmesCapas/sinais.jpg",
+  "/FilmesCapas/sniperAmericano.jpg",
+  "/FilmesCapas/Sound_of_freedom.jpg",
+  "/FilmesCapas/TheTrumanShow.jpg",
+  "/FilmesCapas/univerNoOlhar.jpg",
 ];
 
 // Componente do carrossel reutilizável

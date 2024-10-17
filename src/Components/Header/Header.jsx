@@ -7,7 +7,7 @@ function Header() {
 
       
         <nav>
-         <Link  to="/">{" "} <img className="logoVainaflix" src="/src/assets/logoVaiNaFlix.png" alt="" /> {" "}</Link>
+         <Link  to="/">{" "} <img className="logoVainaflix" src="/logoVaiNaFlix.png" alt="" /> {" "}</Link>
           <ul>
             <li>
               <Link className="navLink" to="/Series">{" "}Séries{" "}</Link>

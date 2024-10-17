@@ -4,15 +4,15 @@ import "../Main/MainStyle.scss"
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/src/assets/SeriesCapas/Breaking_Bad_Temp1.jpg",
-  "/src/assets/SeriesCapas/dark.jpg",
-  "/src/assets/SeriesCapas/euAPatroaeAsCrianacas.jpg",
-  "/src/assets/SeriesCapas/gameOfThrones.jpg",
-  "/src/assets/SeriesCapas/peakyBlinders.jpg",
-  "/src/assets/SeriesCapas/supernatural.jpg",
-  "/src/assets/SeriesCapas/todoMundoOdeiaOCris.jpg",
-  "/src/assets/SeriesCapas/vikings.jpg",
-  "/src/assets/SeriesCapas/yellowStone.jpeg",
+  "/SeriesCapas/Breaking_Bad_Temp1.jpg",
+  "/SeriesCapas/dark.jpg",
+  "/SeriesCapas/euAPatroaeAsCrianacas.jpg",
+  "/SeriesCapas/gameOfThrones.jpg",
+  "/SeriesCapas/peakyBlinders.jpg",
+  "/SeriesCapas/supernatural.jpg",
+  "/SeriesCapas/todoMundoOdeiaOCris.jpg",
+  "/SeriesCapas/vikings.jpg",
+  "/SeriesCapas/yellowStone.jpeg",
 ];
 
 // Componente do carrossel reutilizável
