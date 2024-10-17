@@ -1,0 +1,68 @@
+body {
+  background-color: #141414;
+}
+
+.carroselMain {
+  position: relative;
+  overflow: hidden;
+  width: 99vw;
+  margin: 10px 0 70px 0;
+
+  .carrosel {
+    .carroselDentro {
+      display: flex;
+      gap: 30px;
+
+      .carroselImagens {
+        width: 20%;
+        gap: 100px;
+        overflow-y: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+.catalogo {
+  h2 {
+    display: flex;
+    margin-left: 200px;
+    color: #ffff;
+    font-size: 2.5rem;
+  }
+}
+
+.carroselControle {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+
+  .botao {
+    width: 3%;
+    font-size: 4rem;
+
+    background-color: #141414;
+    opacity: 20%;
+    border: none;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .botao:hover {
+    transform: scale(2);
+    opacity: 80%;
+    color: #ffff;
+  }
+}

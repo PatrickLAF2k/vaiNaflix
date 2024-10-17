@@ -4,15 +4,15 @@ import "/Users/Patrick/Documents/vnwReact/vaiNaFlix/src/Components/Main/MainStyl
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/src/assets/AnimesCapas/blueExorcist.jpg",
-  "/src/assets/AnimesCapas/bokuNoHero.jpg",
-  "/src/assets/AnimesCapas/dororo.jpg",
-  "/src/assets/AnimesCapas/dungeon.jpg",
-  "/src/assets/AnimesCapas/frieren.jpg",
-  "/src/assets/AnimesCapas/haiTo.jpg",
-  "/src/assets/AnimesCapas/jujutsu.jpg",
-  "/src/assets/AnimesCapas/naruto.jpg",
-  "/src/assets/AnimesCapas/noragami.jpg",
+  "/src/assets/FilmesCapas/ateUltimoHomen.jpg",
+  "/src/assets/FilmesCapas/brilhoEternoDeUmaMenteSemLembrancas.jpg",
+  "/src/assets/FilmesCapas/donieDarko.jpg",
+  "/src/assets/FilmesCapas/oPredestinado.jpg",
+  "/src/assets/FilmesCapas/sinais.jpg",
+  "/src/assets/FilmesCapas/sniperAmericano.jpg",
+  "/src/assets/FilmesCapas/Sound_of_freedom.jpg",
+  "/src/assets/FilmesCapas/TheTrumanShow.jpg",
+  "/src/assets/FilmesCapas/univerNoOlhar.jpg",
 ];
 
 // Componente do carrossel reutilizável
@@ -69,16 +69,16 @@ function Carrossel({ images }) {
 export default function Series() {
   return (
     <div className="catalogo">
-      <h2>Animes de Ação</h2>
+      <h2>Séries de Ação</h2>
       <Carrossel images={imagens} />
 
-      <h2>Animes de Terror</h2>
+      <h2>Séries de Terror</h2>
       <Carrossel images={imagens} />
 
-      <h2>Animes de Terror</h2>
+      <h2>Séries de Terror</h2>
       <Carrossel images={imagens} />
 
-      <h2>Animes de Aventura</h2>
+      <h2>Séries de Aventura</h2>
       <Carrossel images={imagens} />
     </div>
   );

@@ -1,16 +1,32 @@
-header{
-    background-color: aqua;
+.headerStyle {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  
+  nav {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    
     
 
-    ul{
-        display: flex;
-        justify-content: space-evenly;
-        height: 10vh;
-        align-items: center;
-
-        li{
-            cursor: pointer;
-        }
-        
+    .logoVainaflix {
+      width: 30%;
     }
+
+    ul {
+      
+      display: flex;
+      width: 50%;
+      justify-content: space-evenly;
+
+      .navLink {
+        color: #eb0000;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
 }

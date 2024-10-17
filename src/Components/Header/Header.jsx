@@ -1,16 +1,26 @@
-import React from "react";
-import "./HeaderStyle.scss"
+import "./HeaderStyle.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>Saiba Mais</li>
-        </ul>
-      </nav>
+    <header className="headerStyle">
+
+      
+        <nav>
+         <Link  to="/">{" "} <img className="logoVainaflix" src="/src/assets/logoVaiNaFlix.png" alt="" /> {" "}</Link>
+          <ul>
+            <li>
+              <Link className="navLink" to="/Series">{" "}Séries{" "}</Link>
+            </li>
+            <li>
+              <Link className="navLink" to="/Animes">{" "}Animes{" "}</Link>
+            </li>
+            <li>
+              <Link className="navLink" to="/Filmes">{" "}Filmes{" "}</Link>
+            </li>
+          </ul>
+        </nav>
+      
     </header>
   );
 }
