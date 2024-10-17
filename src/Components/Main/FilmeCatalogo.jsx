@@ -3,7 +3,6 @@ import { useState } from "react";
 
 // Arrays separados para diferentes categorias de séries
 const imagens = [
-  "/FilmesCapas/ateUltimoHomen.jpgg",
   "/FilmesCapas/brilhoEternoDeUmaMenteSemLembrancas.jpg",
   "/FilmesCapas/donieDarko.jpg",
   "/FilmesCapas/oPredestinado.jpg",
@@ -12,6 +11,7 @@ const imagens = [
   "/FilmesCapas/Sound_of_freedom.jpg",
   "/FilmesCapas/TheTrumanShow.jpg",
   "/FilmesCapas/univerNoOlhar.jpg",
+  "/FilmesCapas/ateUltimoHomen.jpg",
 ];
 
 // Componente do carrossel reutilizável
@@ -69,9 +69,6 @@ export default function Series() {
   return (
     <div className="catalogo">
       <h2>Filmes de Ação</h2>
-      <Carrossel images={imagens} />
-
-      <h2>Filmes de Terror</h2>
       <Carrossel images={imagens} />
 
       <h2>Filmes de Terror</h2>

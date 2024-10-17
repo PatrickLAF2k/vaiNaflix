@@ -74,9 +74,6 @@ export default function Series() {
       <h2>Animes de Terror</h2>
       <Carrossel images={imagens} />
 
-      <h2>Animes de Terror</h2>
-      <Carrossel images={imagens} />
-
       <h2>Animes de Aventura</h2>
       <Carrossel images={imagens} />
     </div>
